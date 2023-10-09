@@ -47,7 +47,8 @@ return {
 	{
 		"nvim-tree/nvim-tree.lua",
 		keys = {
-			{ "tt", "<cmd>NvimTreeToggle<cr>", desc = "Toggle NvimTree" }
+			{ "tt", "<cmd>NvimTreeToggle<cr>", desc = "Toggle NvimTree" },
+			{ "tf", "<cmd>NvimTreeFocus<cr>", desc = "Focus NvimTree" }
 		},
 		config = function()
 			vim.g.loaded_netrw = 1
